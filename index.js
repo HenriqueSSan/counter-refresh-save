@@ -1,3 +1,5 @@
+"use strict";
+
 const result = document.getElementById('result');
 const btnIncrement = document.getElementById('increment');
 const btnDecrement = document.getElementById('decrement');
