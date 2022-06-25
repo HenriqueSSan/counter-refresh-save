@@ -71,6 +71,7 @@ button[type="button"] {
   background-color: transparent;
   color: #ffffff;
   border-radius: .25rem;
+  cursor: pointer;
 }
 
 button[id="increment"] {
