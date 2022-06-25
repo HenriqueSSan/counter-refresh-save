@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.counter {
+  max-width: 1150px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.counter__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.counter__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2.5rem;
+}
+
+.counter__title {
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+.counter__resultBox {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, .2);
+  border-radius: .75rem;
+  border: 2px solid rgba(0, 0, 0, .25);
+}
+
+.counter__result {
+  font-size: 24px;
+}
+
+button[type="button"] {
+  padding: .75rem 2.25rem;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: .25rem;
+}
+
+button[id="increment"] {
+  font-weight: 500;
+  background-color: #00b200;
+}
+
+button[id="decrement"] {
+  font-weight: 500;
+  background-color: #ff0000;
+}
+
+
+.positive {
+  color: #00b200;
+}
+
+.negative {
+  color: #ff0000;
+}
+
+.neutral {
+  color: #000000;
+}
